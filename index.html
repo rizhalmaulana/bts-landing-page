@@ -1,637 +1,731 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PT BEYOND TALENT SERVICE - Integrated Business Partner</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PT Beyond Talent Service — Integrated Business Partner</title>
 
-    <!-- Primary Meta Tags -->
-    <meta name="title" content="PT BEYOND TALENT SERVICE - Integrated Business Partner">
-    <meta name="description"
-        content="PT BEYOND TALENT SERVICE adalah penyedia layanan terintegrasi (Integrated Business Partner) yang menyediakan solusi bisnis End-to-End, konsultasi manajemen, teknologi, hingga manajemen acara.">
-    <meta name="keywords"
-        content="BEYOND, PT BEYOND TALENT SERVICE, Jasa Konsultasi Bisnis, Solusi Teknologi, Event Organizer, Jasa Akuntansi, Pengadaan Barang, Ekosistem Bisnis, B2B Indonesia">
-    <meta name="author" content="PT BEYOND TALENT SERVICE">
-    <meta name="robots" content="index, follow">
+  <!-- Primary Meta Tags -->
+  <meta name="title" content="PT Beyond Talent Service — Integrated Business Partner">
+  <meta name="description"
+    content="PT Beyond Talent Service adalah mitra bisnis terintegrasi (Integrated Business Partner) yang menyediakan solusi End-to-End: konsultasi manajemen, teknologi digital, pengadaan, hingga manajemen acara.">
+  <meta name="keywords"
+    content="BEYOND, PT Beyond Talent Service, Integrated Business Partner, Jasa Konsultasi Bisnis, Solusi Teknologi, Event Organizer, Pengadaan Barang, B2B Indonesia">
+  <meta name="author" content="PT Beyond Talent Service">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.beyondtalentservice.id/">
 
-    <!-- Open Graph / Facebook / WhatsApp / LinkedIn -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://beyondtalentservice.id/">
-    <meta property="og:title" content="PT BEYOND TALENT SERVICE - Integrated Business Partner">
-    <meta property="og:description"
-        content="Bangun ekosistem bisnis Anda tanpa repot bersama mitra terintegrasi. Mulai dari legalitas, teknologi, hingga manajemen acara.">
-    <meta property="og:image" content="Logo-BTS-Company.webp">
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="Logo-BTS-Rounded.webp">
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.beyondtalentservice.id/">
+  <meta property="og:title" content="PT Beyond Talent Service — Integrated Business Partner">
+  <meta property="og:description"
+    content="Bangun ekosistem bisnis Anda tanpa repot bersama mitra terintegrasi. Mulai dari legalitas, teknologi, pengadaan, hingga manajemen acara.">
+  <meta property="og:image" content="https://www.beyondtalentservice.id/Logo-BTS-Company.webp">
+
+  <meta name="theme-color" content="#071320">
+  <link rel="icon" type="image/webp" href="Logo-BTS-Rounded.webp">
+
+  <!-- Fonts: Playfair Display + Plus Jakarta Sans + IBM Plex Mono + Noto Sans SC -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+SC:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,400;1,500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="tech-bg lang-en">
+<body>
 
-    <!-- ========================================== -->
-    <!--             HEADER / NAVIGASI              -->
-    <!-- ========================================== -->
-    <nav class="navbar" id="navbar">
-        <div class="container nav-container">
-            <div class="logo-wrapper">
-                <span class="logo-text">BEYOND <span class="text-cyan">TALENT</span> SERVICE</span>
-            </div>
-            <ul class="nav-links">
-                <li><a href="#home">
-                        <span data-lang="id">Beranda</span><span data-lang="en">Home</span>
-                    </a></li>
-                <li><a href="#about">
-                        <span data-lang="id">Tentang Kami</span><span data-lang="en">About Us</span>
-                    </a></li>
-                <li><a href="#legality">
-                        <span data-lang="id">Legalitas</span><span data-lang="en">Legality</span>
-                    </a></li>
-                <li><a href="#pillars">
-                        <span data-lang="id">Pilar Bisnis</span><span data-lang="en">Business Pillars</span>
-                    </a></li>
-                <li><a href="#platforms">
-                        <span data-lang="id">Solusi</span><span data-lang="en">Solutions</span>
-                    </a></li>
-                <li><a href="#contact" class="btn btn-primary">
-                        <span data-lang="id">Hubungi Kami</span><span data-lang="en">Contact Us</span>
-                    </a></li>
-                <li>
-                    <button class="btn-lang" onclick="toggleLanguage()">
-                        <i class="fas fa-globe"></i> <span id="langLabel">EN</span>
-                    </button>
-                </li>
-            </ul>
+  <!-- ========================================== -->
+  <!--         ADAPTIVE MASTHEAD HEADER           -->
+  <!-- ========================================== -->
+  <header class="masthead" id="masthead">
+    <div class="wrap">
+      <a href="#top" class="brand" aria-label="PT Beyond Talent Service">
+        <span class="brand-badge">
+          <img class="brand-mark" src="Logo-BTS-Rounded.webp" alt="Logo PT Beyond Talent Service" width="36" height="36">
+        </span>
+        <div class="brand-text">
+          <span class="brand-title">PT Beyond Talent Service</span>
+          <span class="brand-sub" data-i18n="tagline">Integrated Business Partner</span>
         </div>
+      </a>
+
+      <nav class="primary" aria-label="Navigasi Utama">
+        <a href="#tentang" data-i18n="nav_about">Tentang Kami</a>
+        <a href="#pilar" data-i18n="nav_pillars">Pilar Bisnis</a>
+        <a href="#solusi" data-i18n="nav_solutions">Solusi Digital</a>
+        <a href="#keunggulan" data-i18n="nav_why">Keunggulan</a>
+        <a href="#legalitas" data-i18n="nav_legal">Legalitas</a>
+      </nav>
+
+      <div class="header-actions">
+        <div class="lang-bar" role="group" aria-label="Pilih Bahasa">
+          <button type="button" data-lang="id" class="active" aria-pressed="true">ID</button>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+          <button type="button" data-lang="zh" aria-pressed="false">中文</button>
+        </div>
+        <a href="#kontak" class="btn btn-gold header-cta" data-i18n="nav_contact">Hubungi Kami</a>
+        <button type="button" class="menu-btn" id="menuBtn" aria-label="Buka Menu" aria-expanded="false"
+          aria-controls="mobileDrawer">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+            stroke-linecap="square" aria-hidden="true">
+            <path d="M3 7h18M3 12h18M3 17h18"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+    <nav aria-label="Navigasi Mobile">
+      <a href="#tentang" data-i18n="nav_about">Tentang Kami</a>
+      <a href="#pilar" data-i18n="nav_pillars">Pilar Bisnis</a>
+      <a href="#solusi" data-i18n="nav_solutions">Solusi Digital</a>
+      <a href="#keunggulan" data-i18n="nav_why">Keunggulan</a>
+      <a href="#legalitas" data-i18n="nav_legal">Legalitas</a>
+      <a href="#kontak" data-i18n="nav_contact">Hubungi Kami</a>
     </nav>
+    <a href="https://wa.me/6281289973003" target="_blank" rel="noopener noreferrer" class="btn btn-gold"
+      data-i18n="wa_btn">Chat via WhatsApp</a>
+  </div>
+
+  <main id="top">
 
     <!-- ========================================== -->
-    <!--           SECTION 1: HERO BANNER           -->
+    <!--     FULL-BLEED OBSIDIAN ARCHITECTURAL HERO -->
     <!-- ========================================== -->
-    <section class="hero" id="home">
-        <!-- Canvas Constellation -->
-        <canvas id="techCanvas" class="tech-canvas"></canvas>
+    <section class="hero">
+      <div class="hero-backdrop" aria-hidden="true">
+        <img
+          src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=85"
+          alt="" width="1800" height="1200" fetchpriority="high">
+      </div>
+      <div class="hero-grid-lines" aria-hidden="true"></div>
 
-        <div class="hero-bg-shapes">
-            <div class="shape shape-cyan"></div>
-            <div class="shape shape-blue"></div>
-        </div>
-        <div class="container hero-container">
-            <div class="hero-content reveal">
-                <!-- INDONESIA -->
-                <div data-lang="id">
-                    <h1 class="hero-title">Bangun Ekosistem Bisnis Anda Tanpa Repot Bersama <span
-                            class="text-gradient">Mitra Terintegrasi.</span></h1>
-                    <p class="hero-subtitle">Dari legalitas, penyediaan infrastruktur, teknologi, hingga manajemen
-                        acara, kami hadir sebagai satu pintu solusi untuk efisiensi perusahaan Anda.</p>
-                    <div class="hero-actions">
-                        <a href="#contact" class="btn btn-primary btn-lg"><i class="fab fa-whatsapp"></i> Konsultasi
-                            Gratis Sekarang</a>
-                    </div>
-                </div>
+      <div class="hero-main">
+        <div class="wrap">
+          <div class="hero-grid">
+            <div class="hero-copy reveal in">
+              <span class="eyebrow" data-i18n="tagline">Integrated Business Partner</span>
+              <h1 data-i18n-html="hero_h1">Bangun Ekosistem Bisnis Anda Tanpa Repot Bersama <em>Mitra Terintegrasi.</em></h1>
+              <p class="lead" data-i18n="hero_sub">Dari legalitas, penyediaan infrastruktur, teknologi, hingga manajemen
+                acara, kami hadir sebagai satu pintu solusi untuk efisiensi perusahaan Anda.</p>
 
-                <!-- ENGLISH -->
-                <div data-lang="en">
-                    <h1 class="hero-title">Build Your Business Ecosystem Effortlessly with an <span
-                            class="text-gradient">Integrated Partner.</span></h1>
-                    <p class="hero-subtitle">From legalities, infrastructure provision, technology, to event management,
-                        we provide a one-stop solution for your company's efficiency.</p>
-                    <div class="hero-actions">
-                        <a href="#contact" class="btn btn-primary btn-lg"><i class="fab fa-whatsapp"></i> Free
-                            Consultation Now</a>
-                    </div>
-                </div>
-
+              <div class="hero-cta-row">
+                <a href="#kontak" class="btn btn-gold">
+                  <span data-i18n="hero_cta">Konsultasi Gratis Sekarang</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="square" aria-hidden="true">
+                    <path d="M5 12h14M13 6l6 6-6 6"></path>
+                  </svg>
+                </a>
+                <a href="#pilar" class="btn btn-ghost-dark">
+                  <span data-i18n="hero_secondary">Jelajahi Pilar Bisnis</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="square" aria-hidden="true">
+                    <path d="M12 5v14M6 13l6 6 6-6"></path>
+                  </svg>
+                </a>
+              </div>
             </div>
+
+            <aside class="hero-credential reveal in" aria-label="Ringkasan Kontak">
+              <div class="hero-cred-label">BEYOND ECOSYSTEM · JAKARTA</div>
+              <p class="hero-cred-quote" data-i18n="footer_about">Menjadi penggerak utama dalam membangun ekosistem
+                bisnis yang terintegrasi dan inovatif berskala nasional.</p>
+              <div class="hero-cred-meta">
+                <a href="mailto:info@beyondtalentservice.id">info@beyondtalentservice.id</a>
+                <a href="https://wa.me/6281289973003" target="_blank" rel="noopener noreferrer">+62 812-8997-3003</a>
+              </div>
+            </aside>
+          </div>
         </div>
+      </div>
+
+      <div class="hero-dock">
+        <div class="wrap">
+          <div class="hero-dock-grid">
+            <div class="dock-item">
+              <div class="dock-k" data-i18n="fact1_k">Pilar Layanan</div>
+              <div class="dock-v" data-i18n="fact1_v">04 Pilar Sinergis</div>
+            </div>
+            <div class="dock-item">
+              <div class="dock-k" data-i18n="fact2_k">Pendekatan</div>
+              <div class="dock-v" data-i18n="fact2_v">End-to-End B2B</div>
+            </div>
+            <div class="dock-item">
+              <div class="dock-k" data-i18n="fact3_k">Legalitas</div>
+              <div class="dock-v" data-i18n="fact3_v">PT Resmi Terdaftar</div>
+            </div>
+            <div class="dock-loc">JAKARTA SELATAN · 12520</div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- ========================================== -->
-    <!--            SECTION 2: ABOUT US             -->
+    <!--     B·E·Y·O·N·D CORE VALUES (3x2 GRID)     -->
     <!-- ========================================== -->
-    <section class="section about-section" id="about">
-        <div class="container">
-            <div class="section-header reveal">
-                <h2 class="section-title">
-                    <span data-lang="id">Tentang</span>
-                    <span data-lang="en">About</span>
-                    <span class="text-cyan">PT BEYOND TALENT SERVICE</span>
-                </h2>
-                <p class="section-subtitle">Integrated Business Partner</p>
-            </div>
-
-            <div class="about-grid">
-                <div class="about-desc reveal">
-                    <div class="glass-card p-4">
-                        <div data-lang="id">
-                            <p class="mb-4"
-                                style="font-size: 1.05rem; color: var(--color-blue-dark); line-height: 1.7;"><strong>PT
-                                    BEYOND TALENT SERVICE</strong> adalah perusahaan penyedia layanan terintegrasi yang
-                                berdedikasi untuk mendukung pertumbuhan bisnis dan efisiensi operasional klien.</p>
-
-                            <div class="about-highlights">
-                                <div class="highlight-item">
-                                    <i class="fas fa-layer-group"></i>
-                                    <div>
-                                        <strong>Solusi End-to-End</strong>
-                                        <p>Konsultasi Bisnis, Teknologi, hingga Manajemen Acara & Pengadaan.</p>
-                                    </div>
-                                </div>
-                                <div class="highlight-item">
-                                    <i class="fas fa-handshake"></i>
-                                    <div>
-                                        <strong>Mitra Adaptif & Sinergis</strong>
-                                        <p>Fleksibilitas tinggi dengan komitmen penuh terhadap kualitas inovasi.</p>
-                                    </div>
-                                </div>
-                                <div class="highlight-item">
-                                    <i class="fas fa-magic"></i>
-                                    <div>
-                                        <strong>Menyederhanakan Kompleksitas</strong>
-                                        <p>Mengubah ide menjadi ekosistem bisnis yang praktis dan berdampak nyata.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div data-lang="en">
-                            <p class="mb-4"
-                                style="font-size: 1.05rem; color: var(--color-blue-dark); line-height: 1.7;"><strong>PT
-                                    BEYOND TALENT SERVICE</strong> is an integrated service provider dedicated to
-                                supporting our clients’ business growth and operational efficiency.</p>
-
-                            <div class="about-highlights">
-                                <div class="highlight-item">
-                                    <i class="fas fa-layer-group"></i>
-                                    <div>
-                                        <strong>End-to-End Solutions</strong>
-                                        <p>From Business Consulting and Technology to Event Management & Procurement.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="highlight-item">
-                                    <i class="fas fa-handshake"></i>
-                                    <div>
-                                        <strong>Adaptive & Synergistic Partner</strong>
-                                        <p>High flexibility with a full commitment to innovative quality.</p>
-                                    </div>
-                                </div>
-                                <div class="highlight-item">
-                                    <i class="fas fa-magic"></i>
-                                    <div>
-                                        <strong>Simplifying Complexity</strong>
-                                        <p>Transforming ideas into a practical and highly impactful business ecosystem.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="vision-mission reveal delay-1">
-                    <div class="vm-card">
-                        <div class="vm-icon"><i class="fas fa-eye"></i></div>
-                        <div class="vm-content">
-                            <h3><span data-lang="id">Visi Kami</span><span data-lang="en">Our Vision</span></h3>
-                            <p data-lang="id">Menjadi kekuatan utama dalam membangun ekosistem bisnis yang terintegrasi
-                                dan inovatif berskala nasional.</p>
-                            <p data-lang="en">To be a leading force in building an integrated and innovative business
-                                ecosystem on a national scale.</p>
-                        </div>
-                    </div>
-                    <div class="vm-card">
-                        <div class="vm-icon"><i class="fas fa-bullseye"></i></div>
-                        <div class="vm-content">
-                            <h3><span data-lang="id">Misi Kami</span><span data-lang="en">Our Mission</span></h3>
-                            <ul class="styled-list" data-lang="id">
-                                <li>Memberikan Solusi End-to-End secara menyeluruh.</li>
-                                <li>Menyederhanakan Kompleksitas Operasional lintas sektor.</li>
-                                <li>Membangun Kemitraan B2B yang strategis & handal.</li>
-                            </ul>
-                            <ul class="styled-list" data-lang="en">
-                                <li>Providing comprehensive End-to-End Solutions.</li>
-                                <li>Simplifying cross-sector Operational Complexity.</li>
-                                <li>Building reliable & strategic B2B Partnerships.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Core Values -->
-            <div class="core-values-section mt-5 reveal">
-                <div class="text-center mb-3">
-                    <h3 style="font-size: 2rem; color: var(--color-blue-dark);"><span
-                            class="text-cyan">B.E.Y.O.N.D</span> <span data-lang="id">Nilai Inti</span><span
-                            data-lang="en">Core Values</span></h3>
-                </div>
-                <div class="core-values-grid">
-                    <div class="cv-card">
-                        <div class="cv-letter">B</div>
-                        <h4>Brilliance</h4>
-                        <p data-lang="id">Kecerdasan & Kualitas</p>
-                        <p data-lang="en">Intelligence & Quality</p>
-                    </div>
-                    <div class="cv-card">
-                        <div class="cv-letter">E</div>
-                        <h4>Efficiency</h4>
-                        <p data-lang="id">Hemat Waktu & Biaya</p>
-                        <p data-lang="en">Time & Cost Efficient</p>
-                    </div>
-                    <div class="cv-card">
-                        <div class="cv-letter">Y</div>
-                        <h4>Yield-driven</h4>
-                        <p data-lang="id">Berorientasi Hasil</p>
-                        <p data-lang="en">Results-Oriented</p>
-                    </div>
-                    <div class="cv-card">
-                        <div class="cv-letter">O</div>
-                        <h4>Outstanding</h4>
-                        <p data-lang="id">Proaktif & Responsif</p>
-                        <p data-lang="en">Proactive & Responsive</p>
-                    </div>
-                    <div class="cv-card">
-                        <div class="cv-letter">N</div>
-                        <h4>Network</h4>
-                        <p data-lang="id">Jangkauan Luas</p>
-                        <p data-lang="en">Strong Reach</p>
-                    </div>
-                    <div class="cv-card">
-                        <div class="cv-letter">D</div>
-                        <h4>Dynamic</h4>
-                        <p data-lang="id">Terus Berinovasi</p>
-                        <p data-lang="en">Constantly Innovating</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Why Choose Us -->
-            <div class="why-choose-section mt-1 pt-1 reveal" style="margin-bottom: 100px;">
-                <div class="text-center mb-3">
-                    <h3 style="font-size: 2rem; color: var(--color-blue-dark);">
-                        <span data-lang="id">Mengapa Memilih <span class="text-gradient">BEYOND</span>?</span>
-                        <span data-lang="en">Why Choose <span class="text-gradient">BEYOND</span>?</span>
-                    </h3>
-                </div>
-
-                <div class="wcu-grid">
-                    <div class="wcu-card glowing-border">
-                        <div class="wcu-image"
-                            style="background-image: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&q=80');">
-                        </div>
-                        <h4><span data-lang="id">Ekosistem Terintegrasi</span><span data-lang="en">Integrated
-                                Ecosystem</span></h4>
-                        <p><span data-lang="id">Satu pintu untuk semua kebutuhan, dari legalitas hingga operasional
-                                teknologi.</span><span data-lang="en">One-stop access for all your needs, from legality
-                                to technology operations.</span></p>
-                    </div>
-                    <div class="wcu-card glowing-border">
-                        <div class="wcu-image"
-                            style="background-image: url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=400&q=80');">
-                        </div>
-                        <h4><span data-lang="id">Adaptif & Fleksibel</span><span data-lang="en">Adaptive &
-                                Flexible</span></h4>
-                        <p><span data-lang="id">Solusi yang dirancang khusus menyesuaikan skala dan keunikan bisnis
-                                Anda.</span><span data-lang="en">Custom-tailored solutions designed to fit the scale and
-                                uniqueness of your business.</span></p>
-                    </div>
-                    <div class="wcu-card glowing-border">
-                        <div class="wcu-image"
-                            style="background-image: url('https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&q=80');">
-                        </div>
-                        <h4><span data-lang="id">Tenaga Ahli Profesional</span><span data-lang="en">Expert
-                                Professionals</span></h4>
-                        <p><span data-lang="id">Didukung oleh tim berpengalaman dengan rekam jejak industri yang
-                                terbukti.</span><span data-lang="en">Backed by an experienced team with a proven
-                                industry track record.</span></p>
-                    </div>
-                    <div class="wcu-card glowing-border">
-                        <div class="wcu-image"
-                            style="background-image: url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&q=80');">
-                        </div>
-                        <h4><span data-lang="id">Fokus pada Efisiensi</span><span data-lang="en">Efficiency
-                                Driven</span></h4>
-                        <p><span data-lang="id">Optimalisasi biaya dan waktu operasional untuk pertumbuhan bisnis
-                                maksimal.</span><span data-lang="en">Optimizing operational costs and time for maximum
-                                business growth.</span></p>
-                    </div>
-                </div>
-            </div>
-
+    <section class="values-band" aria-label="B.E.Y.O.N.D Core Values">
+      <div class="wrap">
+        <div class="values-top">
+          <div class="values-wordmark">B·E·Y·O·N·D</div>
+          <span class="eyebrow" data-i18n="values_label">Nilai Inti</span>
         </div>
+
+        <div class="values-grid">
+          <div class="val-card">
+            <div class="val-monogram">B</div>
+            <div class="val-body">
+              <h3>Brilliance</h3>
+              <p data-i18n="v_b">Kecerdasan &amp; Kualitas</p>
+            </div>
+          </div>
+          <div class="val-card">
+            <div class="val-monogram">E</div>
+            <div class="val-body">
+              <h3>Efficiency</h3>
+              <p data-i18n="v_e">Hemat Waktu &amp; Biaya</p>
+            </div>
+          </div>
+          <div class="val-card">
+            <div class="val-monogram">Y</div>
+            <div class="val-body">
+              <h3>Yield-driven</h3>
+              <p data-i18n="v_y">Berorientasi Hasil</p>
+            </div>
+          </div>
+          <div class="val-card">
+            <div class="val-monogram">O</div>
+            <div class="val-body">
+              <h3>Outstanding</h3>
+              <p data-i18n="v_o">Proaktif &amp; Responsif</p>
+            </div>
+          </div>
+          <div class="val-card">
+            <div class="val-monogram">N</div>
+            <div class="val-body">
+              <h3>Network</h3>
+              <p data-i18n="v_n">Jangkauan Luas</p>
+            </div>
+          </div>
+          <div class="val-card">
+            <div class="val-monogram">D</div>
+            <div class="val-body">
+              <h3>Dynamic</h3>
+              <p data-i18n="v_d">Terus Berinovasi</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- ========================================== -->
-    <!--      SECTION 3: LEGALITAS PERUSAHAAN       -->
+    <!--        01 / TENTANG KAMI, VISI & MISI      -->
     <!-- ========================================== -->
-    <section class="section bg-dark text-white legality-section" id="legality">
-        <div class="container">
-            <div class="section-header reveal">
-                <h2 class="section-title text-white">
-                    <span data-lang="id">Legalitas & <span class="text-cyan">Sertifikasi</span></span>
-                    <span data-lang="en">Legality & <span class="text-cyan">Certification</span></span>
-                </h2>
-                <p class="section-desc" style="color: #94a3b8;">
-                    <span data-lang="id">PT Beyond Talent Service telah terdaftar resmi dan mematuhi seluruh regulasi
-                        yang berlaku di Indonesia sebagai bentuk profesionalisme dan komitmen kami kepada mitra.</span>
-                    <span data-lang="en">PT Beyond Talent Service is officially registered and complies with all
-                        applicable regulations in Indonesia as a testament to our professionalism and commitment to our
-                        partners.</span>
-                </p>
-            </div>
-
-            <div class="legality-grid reveal delay-1">
-                <div class="legality-card">
-                    <i class="fas fa-file-signature"></i>
-                    <h4>Akta Pendirian</h4>
-                    <p data-lang="id">Notaris Resmi Terdaftar</p>
-                    <p data-lang="en">Registered Notary Public</p>
-                </div>
-                <div class="legality-card">
-                    <i class="fas fa-balance-scale"></i>
-                    <h4>SK Kemenkumham</h4>
-                    <p data-lang="id">Pengesahan Badan Hukum</p>
-                    <p data-lang="en">Legal Entity Ratification</p>
-                </div>
-                <div class="legality-card">
-                    <i class="fas fa-id-card"></i>
-                    <h4>NIB</h4>
-                    <p data-lang="id">Nomor Induk Berusaha</p>
-                    <p data-lang="en">Business Identification Number</p>
-                </div>
-                <div class="legality-card">
-                    <i class="fas fa-file-invoice-dollar"></i>
-                    <h4>NPWP</h4>
-                    <p data-lang="id">Nomor Pokok Wajib Pajak</p>
-                    <p data-lang="en">Tax Identification Number</p>
-                </div>
-            </div>
+    <section class="band about-band" id="tentang">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <div>
+            <span class="eyebrow" data-i18n="idx_about">01 / Tentang Kami</span>
+            <h2 data-i18n-html="about_h2">Tentang <em>PT Beyond Talent Service</em></h2>
+          </div>
+          <p class="lead" data-i18n-html="about_lead"><strong>PT BEYOND TALENT SERVICE</strong> adalah perusahaan
+            penyedia layanan terintegrasi yang berdedikasi untuk mendukung pertumbuhan bisnis dan efisiensi operasional
+            klien.</p>
         </div>
+
+        <div class="about-monolith reveal">
+          <div class="vision-panel">
+            <span class="eyebrow" data-i18n="vision_t">Visi Kami</span>
+            <blockquote data-i18n="vision_d">“Menjadi kekuatan utama dalam membangun ekosistem bisnis yang terintegrasi
+              dan inovatif berskala nasional.”</blockquote>
+          </div>
+          <div class="vision-photo">
+            <img
+              src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1200&q=80"
+              alt="Ruang kerja kolaboratif korporasi" width="1200" height="800" loading="lazy">
+          </div>
+        </div>
+
+        <div class="about-lower reveal">
+          <div class="hl-grid">
+            <div class="hl-item">
+              <div class="hl-no">01</div>
+              <div>
+                <h3 data-i18n="hl1_t">Solusi End-to-End</h3>
+                <p data-i18n="hl1_d">Konsultasi Bisnis, Teknologi, hingga Manajemen Acara &amp; Pengadaan.</p>
+              </div>
+            </div>
+            <div class="hl-item">
+              <div class="hl-no">02</div>
+              <div>
+                <h3 data-i18n="hl2_t">Mitra Adaptif &amp; Sinergis</h3>
+                <p data-i18n="hl2_d">Fleksibilitas tinggi dengan komitmen penuh terhadap kualitas inovasi.</p>
+              </div>
+            </div>
+            <div class="hl-item">
+              <div class="hl-no">03</div>
+              <div>
+                <h3 data-i18n="hl3_t">Menyederhanakan Kompleksitas</h3>
+                <p data-i18n="hl3_d">Mengubah ide menjadi ekosistem bisnis yang praktis dan berdampak nyata.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="mission-panel">
+            <span class="eyebrow" data-i18n="mission_t">Misi Kami</span>
+            <ul class="mission-list">
+              <li><span>01</span><div data-i18n="m1">Memberikan Solusi End-to-End secara menyeluruh.</div></li>
+              <li><span>02</span><div data-i18n="m2">Menyederhanakan Kompleksitas Operasional lintas sektor.</div></li>
+              <li><span>03</span><div data-i18n="m3">Membangun Kemitraan B2B yang strategis &amp; handal.</div></li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- ========================================== -->
-    <!--            SECTION 4: PILLARS              -->
+    <!--     02 / PILAR BISNIS (2x2 GRAND GALLERY)  -->
     <!-- ========================================== -->
-    <section class="section" id="pillars">
-        <div class="container">
-            <div class="section-header reveal">
-                <h2 class="section-title">
-                    <span data-lang="en">Our Integrated <span class="text-gradient">Business Pillars</span></span>
-                    <span data-lang="id"><span class="text-gradient">Pilar Bisnis</span> Terintegrasi Kami</span>
-                </h2>
-                <p class="section-desc">
-                    <span data-lang="en">Four synergistic pillars designed to fulfill all your operational and expansion
-                        needs through a single integrated ecosystem.</span>
-                    <span data-lang="id">Keempat pilar kami dirancang untuk bersinergi, memastikan seluruh kebutuhan
-                        operasional Anda terpenuhi melalui satu pintu.</span>
-                </p>
-            </div>
-
-            <div class="pillars-grid reveal delay-1">
-                <!-- Pillar 1 -->
-                <div class="pillar-item">
-                    <div class="pillar-bg"
-                        style="background-image: url('https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=500&q=80');">
-                    </div>
-                    <div class="pillar-content">
-                        <h3>Creative, Event & Media</h3>
-                        <div class="pillar-details">
-                            <ul class="pillar-list" data-lang="id">
-                                <li>Jasa Penyelenggara Pertemuan (MICE) dan Event Khusus.</li>
-                                <li>Desain Komunikasi Visual / Desain Grafis.</li>
-                                <li>Layanan Fotografi.</li>
-                            </ul>
-                            <ul class="pillar-list" data-lang="en">
-                                <li>MICE & Special Event Organizer.</li>
-                                <li>Visual Communication / Graphic Design.</li>
-                                <li>Professional Photography Services.</li>
-                            </ul>
-                        </div>
-                        <div class="btn-detail"><span data-lang="id">Lihat Detail</span><span data-lang="en">View
-                                Details</span> <i class="fas fa-arrow-right"></i></div>
-                    </div>
-                </div>
-                <!-- Pillar 2 -->
-                <div class="pillar-item">
-                    <div class="pillar-bg"
-                        style="background-image: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=500&q=80');">
-                    </div>
-                    <div class="pillar-content">
-                        <h3>Technology & Digital Solutions</h3>
-                        <div class="pillar-details">
-                            <ul class="pillar-list" data-lang="id">
-                                <li>Pengembangan Web/Platform Digital.</li>
-                                <li>Aktivitas Pemrograman Komputer Lainnya.</li>
-                                <li>Aktivitas Telekomunikasi dengan Kabel.</li>
-                            </ul>
-                            <ul class="pillar-list" data-lang="en">
-                                <li>Web & Digital Platform Development.</li>
-                                <li>Custom Computer Programming.</li>
-                                <li>Wired Telecommunications Activities.</li>
-                            </ul>
-                        </div>
-                        <div class="btn-detail"><span data-lang="id">Lihat Detail</span><span data-lang="en">View
-                                Details</span> <i class="fas fa-arrow-right"></i></div>
-                    </div>
-                </div>
-                <!-- Pillar 3 -->
-                <div class="pillar-item">
-                    <div class="pillar-bg"
-                        style="background-image: url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=500&q=80');">
-                    </div>
-                    <div class="pillar-content">
-                        <h3>Professional Consulting & Talent</h3>
-                        <div class="pillar-details">
-                            <ul class="pillar-list" data-lang="id">
-                                <li>Konsultasi Manajemen dan Akuntansi.</li>
-                                <li>Penerjemah atau Interpreter.</li>
-                                <li>Penempatan Pekerja & SDM.</li>
-                                <li>Jasa Penunjang Usaha (Balai Lelang).</li>
-                            </ul>
-                            <ul class="pillar-list" data-lang="en">
-                                <li>Management & Accounting Consulting.</li>
-                                <li>Translator & Interpreter Services.</li>
-                                <li>Talent & HR Placement.</li>
-                                <li>Other Business Support (Auction House).</li>
-                            </ul>
-                        </div>
-                        <div class="btn-detail"><span data-lang="id">Lihat Detail</span><span data-lang="en">View
-                                Details</span> <i class="fas fa-arrow-right"></i></div>
-                    </div>
-                </div>
-                <!-- Pillar 4 -->
-                <div class="pillar-item">
-                    <div class="pillar-bg"
-                        style="background-image: url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=500&q=80');">
-                    </div>
-                    <div class="pillar-content">
-                        <h3>Production, Procurement & Hospitality</h3>
-                        <div class="pillar-details">
-                            <ul class="pillar-list" data-lang="id">
-                                <li>Perdagangan Besar (Pengadaan/Grosir).</li>
-                                <li>Industri Pakaian Jadi / Konveksi.</li>
-                                <li>Pencetakan Umum & 3D Printing.</li>
-                                <li>Jasa Boga / Catering.</li>
-                            </ul>
-                            <ul class="pillar-list" data-lang="en">
-                                <li>Wholesale Trade & Procurement.</li>
-                                <li>Garment & Apparel Manufacturing.</li>
-                                <li>General & 3D Printing Services.</li>
-                                <li>Catering & Hospitality.</li>
-                            </ul>
-                        </div>
-                        <div class="btn-detail"><span data-lang="id">Lihat Detail</span><span data-lang="en">View
-                                Details</span> <i class="fas fa-arrow-right"></i></div>
-                    </div>
-                </div>
-            </div>
+    <section class="band pillars-band" id="pilar">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <div>
+            <span class="eyebrow" data-i18n="idx_pillars">02 / Pilar Bisnis</span>
+            <h2 data-i18n-html="pillars_h2"><em>Pilar Bisnis</em> Terintegrasi Kami</h2>
+          </div>
+          <p class="lead" data-i18n="pillars_d">Keempat pilar kami dirancang untuk bersinergi, memastikan seluruh
+            kebutuhan operasional Anda terpenuhi melalui satu pintu.</p>
         </div>
+
+        <div class="pillars-grid">
+          <article class="pillar-card reveal" id="pilar-1">
+            <div class="pillar-media">
+              <img
+                src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=1000&q=80"
+                alt="Creative, Event &amp; Media" width="1000" height="562" loading="lazy">
+              <div class="pillar-overlay-meta">
+                <span class="pillar-tag">MICE · VISUAL · MEDIA</span>
+                <span class="pillar-num">01</span>
+              </div>
+            </div>
+            <div class="pillar-body">
+              <h3 data-i18n="p1">Creative, Event &amp; Media</h3>
+              <ul class="pillar-scope">
+                <li data-i18n="p1a">Jasa Penyelenggara Pertemuan (MICE) dan Event Khusus.</li>
+                <li data-i18n="p1b">Desain Komunikasi Visual / Desain Grafis.</li>
+                <li data-i18n="p1c">Layanan Fotografi.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="pillar-card reveal" id="pilar-2">
+            <div class="pillar-media">
+              <img
+                src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1000&q=80"
+                alt="Technology &amp; Digital Solutions" width="1000" height="562" loading="lazy">
+              <div class="pillar-overlay-meta">
+                <span class="pillar-tag">PLATFORM · SOFTWARE · NETWORK</span>
+                <span class="pillar-num">02</span>
+              </div>
+            </div>
+            <div class="pillar-body">
+              <h3 data-i18n="p2">Technology &amp; Digital Solutions</h3>
+              <ul class="pillar-scope">
+                <li data-i18n="p2a">Pengembangan Web/Platform Digital.</li>
+                <li data-i18n="p2b">Aktivitas Pemrograman Komputer Lainnya.</li>
+                <li data-i18n="p2c">Aktivitas Telekomunikasi dengan Kabel.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="pillar-card reveal" id="pilar-3">
+            <div class="pillar-media">
+              <img
+                src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1000&q=80"
+                alt="Professional Consulting &amp; Talent" width="1000" height="562" loading="lazy">
+              <div class="pillar-overlay-meta">
+                <span class="pillar-tag">ADVISORY · LANGUAGE · TALENT</span>
+                <span class="pillar-num">03</span>
+              </div>
+            </div>
+            <div class="pillar-body">
+              <h3 data-i18n="p3">Professional Consulting &amp; Talent</h3>
+              <ul class="pillar-scope">
+                <li data-i18n="p3a">Konsultasi Manajemen dan Akuntansi.</li>
+                <li data-i18n="p3b">Penerjemah atau Interpreter.</li>
+                <li data-i18n="p3c">Penempatan Pekerja &amp; SDM.</li>
+                <li data-i18n="p3d">Jasa Penunjang Usaha (Balai Lelang).</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="pillar-card reveal" id="pilar-4">
+            <div class="pillar-media">
+              <img
+                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1000&q=80"
+                alt="Production, Procurement &amp; Hospitality" width="1000" height="562" loading="lazy">
+              <div class="pillar-overlay-meta">
+                <span class="pillar-tag">SUPPLY · GARMENT · HOSPITALITY</span>
+                <span class="pillar-num">04</span>
+              </div>
+            </div>
+            <div class="pillar-body">
+              <h3 data-i18n="p4">Production, Procurement &amp; Hospitality</h3>
+              <ul class="pillar-scope">
+                <li data-i18n="p4a">Perdagangan Besar (Pengadaan/Grosir).</li>
+                <li data-i18n="p4b">Industri Pakaian Jadi / Konveksi.</li>
+                <li data-i18n="p4c">Pencetakan Umum &amp; 3D Printing.</li>
+                <li data-i18n="p4d">Jasa Boga / Catering.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
     </section>
 
     <!-- ========================================== -->
-    <!--   SECTION 5: DIGITAL PLATFORMS & SYSTEMS   -->
+    <!--     03 / DIGITAL PLATFORMS & SYSTEMS       -->
     <!-- ========================================== -->
-    <section class="section bg-deep-tech" id="platforms">
-        <div class="container">
-            <div class="section-header reveal">
-                <h2 class="section-title text-white">Digital <span class="text-cyan">Platforms</span> & Systems</h2>
-                <p class="section-desc" style="color: #94a3b8;">
-                    <span data-lang="id">Berbagai solusi sistem cerdas yang kami kembangkan khusus untuk mendigitalisasi
-                        dan mengotomatisasi operasional bisnis Anda.</span>
-                    <span data-lang="en">Intelligent system solutions developed specifically to digitize and automate
-                        your business operations.</span>
-                </p>
-            </div>
-
-            <div class="platform-grid reveal delay-1">
-                <!-- Platform 1 -->
-                <div class="platform-card glowing-border">
-                    <div class="icon-box"><i class="fas fa-microchip"></i></div>
-                    <h3>Sistem Integrasi Mesin Laundry</h3>
-                    <p data-lang="id">Sistem cerdas (IoT) untuk kontrol mesin dan kasir digital khusus bisnis laundry
-                        modern.</p>
-                    <p data-lang="en">Smart IoT system for machine control and digital POS tailored for modern laundry
-                        businesses.</p>
-                    <a href="https://maunyuci.beyondtalentservice.id" class="btn btn-primary"
-                        style="padding: 8px 16px; font-size:0.9rem;" target="_blank">
-                        <span data-lang="id">Kunjungi Website</span><span data-lang="en">Visit Website</span>
-                    </a>
-                </div>
-
-                <!-- Platform 2 -->
-                <div class="platform-card glowing-border">
-                    <div class="icon-box"><i class="fas fa-boxes"></i></div>
-                    <h3>Pengadaan Barang Kantor</h3>
-                    <p data-lang="id">Platform e-procurement B2B cerdas untuk mempermudah instansi dalam belanja
-                        kebutuhan operasional.</p>
-                    <p data-lang="en">Smart B2B e-procurement platform streamlining operational supply purchases for
-                        institutions.</p>
-                    <a href="https://perkantoran.com" class="btn btn-primary"
-                        style="padding: 8px 16px; font-size:0.9rem;" target="_blank">
-                        <span data-lang="id">Kunjungi Website</span><span data-lang="en">Visit Website</span>
-                    </a>
-                </div>
-
-                <!-- Platform 3 -->
-                <div class="platform-card glowing-border">
-                    <div class="icon-box"><i class="fas fa-cash-register"></i></div>
-                    <h3>Sistem POS (Point of Sales)</h3>
-                    <p data-lang="id">Aplikasi kasir mutakhir dengan sinkronisasi multi-cabang, inventori, dan laporan
-                        keuangan real-time.</p>
-                    <p data-lang="en">Advanced POS application with multi-branch synchronization, inventory, and
-                        real-time reporting.</p>
-                    <a href="#contact" class="btn btn-primary" style="padding: 8px 16px; font-size:0.9rem;">
-                        <span data-lang="id">Hubungi Kami</span><span data-lang="en">Contact Us</span>
-                    </a>
-                </div>
-
-                <!-- Platform 4 -->
-                <div class="platform-card glowing-border">
-                    <div class="icon-box"><i class="fas fa-network-wired"></i></div>
-                    <h3>Sistem ERP (Enterprise)</h3>
-                    <p data-lang="id">Software manajemen sumber daya perusahaan skala besar untuk HR, akuntansi, hingga
-                        supply chain.</p>
-                    <p data-lang="en">Large-scale enterprise resource management software for HR, accounting, and supply
-                        chain.</p>
-                    <a href="#contact" class="btn btn-primary" style="padding: 8px 16px; font-size:0.9rem;">
-                        <span data-lang="id">Hubungi Kami</span><span data-lang="en">Contact Us</span>
-                    </a>
-                </div>
-            </div>
+    <section class="band platforms-band" id="solusi">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <div>
+            <span class="eyebrow" data-i18n="idx_solutions">03 / Solusi Digital</span>
+            <h2 data-i18n-html="plat_h2">Digital <em>Platforms</em> &amp; Systems</h2>
+          </div>
+          <p class="lead" data-i18n="plat_d">Berbagai solusi sistem cerdas yang kami kembangkan khusus untuk
+            mendigitalisasi dan mengotomatisasi operasional bisnis Anda.</p>
         </div>
+
+        <div class="platform-grid">
+          <div class="plat-card featured reveal">
+            <div class="plat-top">
+              <div class="plat-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                  stroke-linecap="square">
+                  <rect x="7" y="7" width="10" height="10"></rect>
+                  <path d="M9 3v4M15 3v4M9 17v4M15 17v4M3 9h4M3 15h4M17 9h4M17 15h4"></path>
+                </svg>
+              </div>
+              <div class="plat-meta">
+                <span class="plat-tag">IOT · SMART LAUNDRY</span>
+                <span class="plat-no">01</span>
+              </div>
+            </div>
+            <h3 data-i18n="c1_t">Sistem Integrasi Mesin Laundry</h3>
+            <p data-i18n="c1_d">Sistem cerdas (IoT) untuk kontrol mesin dan kasir digital khusus bisnis laundry modern.</p>
+            <div class="plat-action">
+              <a class="plat-link" href="https://maunyuci.beyondtalentservice.id" target="_blank"
+                rel="noopener noreferrer">
+                <span data-i18n="btn_visit">Kunjungi Website</span>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="square" aria-hidden="true">
+                  <path d="M7 17L17 7M8 7h9v9"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="plat-card featured reveal">
+            <div class="plat-top">
+              <div class="plat-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                  stroke-linecap="square">
+                  <path d="M3 7l9-4 9 4-9 4-9-4z"></path>
+                  <path d="M3 12l9 4 9-4M3 17l9 4 9-4"></path>
+                </svg>
+              </div>
+              <div class="plat-meta">
+                <span class="plat-tag">B2B · E-PROCUREMENT</span>
+                <span class="plat-no">02</span>
+              </div>
+            </div>
+            <h3 data-i18n="c2_t">Pengadaan Barang Kantor</h3>
+            <p data-i18n="c2_d">Platform e-procurement B2B cerdas untuk mempermudah instansi dalam belanja kebutuhan
+              operasional.</p>
+            <div class="plat-action">
+              <a class="plat-link" href="https://perkantoran.com" target="_blank" rel="noopener noreferrer">
+                <span data-i18n="btn_visit">Kunjungi Website</span>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="square" aria-hidden="true">
+                  <path d="M7 17L17 7M8 7h9v9"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="plat-card reveal">
+            <div class="plat-top">
+              <div class="plat-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                  stroke-linecap="square">
+                  <rect x="3" y="4" width="18" height="12"></rect>
+                  <path d="M7 20h10M12 16v4"></path>
+                </svg>
+              </div>
+              <div class="plat-meta">
+                <span class="plat-tag">RETAIL · POINT OF SALES</span>
+                <span class="plat-no">03</span>
+              </div>
+            </div>
+            <h3 data-i18n="c3_t">Sistem POS (Point of Sales)</h3>
+            <p data-i18n="c3_d">Aplikasi kasir mutakhir dengan sinkronisasi multi-cabang, inventori, dan laporan keuangan
+              real-time.</p>
+            <div class="plat-action">
+              <a class="plat-link" href="#kontak">
+                <span data-i18n="nav_contact">Hubungi Kami</span>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="square" aria-hidden="true">
+                  <path d="M5 12h14M13 6l6 6-6 6"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="plat-card reveal">
+            <div class="plat-top">
+              <div class="plat-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                  stroke-linecap="square">
+                  <rect x="9" y="3" width="6" height="5"></rect>
+                  <rect x="3" y="16" width="6" height="5"></rect>
+                  <rect x="15" y="16" width="6" height="5"></rect>
+                  <path d="M12 8v4M6 16v-4h12v4"></path>
+                </svg>
+              </div>
+              <div class="plat-meta">
+                <span class="plat-tag">ENTERPRISE · ERP</span>
+                <span class="plat-no">04</span>
+              </div>
+            </div>
+            <h3 data-i18n="c4_t">Sistem ERP (Enterprise)</h3>
+            <p data-i18n="c4_d">Software manajemen sumber daya perusahaan skala besar untuk HR, akuntansi, hingga supply
+              chain.</p>
+            <div class="plat-action">
+              <a class="plat-link" href="#kontak">
+                <span data-i18n="nav_contact">Hubungi Kami</span>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="square" aria-hidden="true">
+                  <path d="M5 12h14M13 6l6 6-6 6"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- ========================================== -->
-    <!--         SECTION 6: CONTACT & FOOTER        -->
+    <!--           04 / WHY CHOOSE BEYOND           -->
     <!-- ========================================== -->
-    <footer class="footer" id="contact">
-        <div class="container footer-layout">
-            <div class="footer-info reveal">
-                <img src="Logo-BTS-Company.webp" alt="Logo BTS Footer" class="footer-logo">
-                <p class="mt-4">
-                    <span data-lang="id">Menjadi penggerak utama dalam membangun ekosistem bisnis yang terintegrasi dan
-                        inovatif berskala nasional.</span>
-                    <span data-lang="en">The leading force in building an integrated and innovative national business
-                        ecosystem.</span>
-                </p>
-                <div class="contact-details mt-4">
-                    <p><i class="fas fa-map-marker-alt"></i> Grand Pasar Minggu, Jalan Raya Rawa Bambu Nomor 88 L,
-                        Jakarta Selatan, 12520.</p>
-                    <p><i class="fas fa-envelope"></i> info@beyondtalentservice.id</p>
-                    <p><i class="fas fa-globe"></i> beyondtalentservice.id</p>
-                    <!-- <div class="social-links mt-3">
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                    </div> -->
-                </div>
+    <section class="band why-band" id="keunggulan">
+      <div class="wrap">
+        <div class="why-layout">
+          <div class="why-left reveal">
+            <span class="eyebrow" data-i18n="idx_why">04 / Keunggulan</span>
+            <h2 data-i18n-html="why_h2">Mengapa Memilih <em>BEYOND</em>?</h2>
+            <div class="why-photo-wrap">
+              <div class="why-photo">
+                <img
+                  src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=1000&q=80"
+                  alt="Diskusi tim profesional korporasi" width="1000" height="750" loading="lazy">
+              </div>
+              <div class="why-badge">ONE-STOP B2B ECOSYSTEM</div>
             </div>
+          </div>
 
-            <div class="footer-cta reveal delay-1">
-                <div class="glass-form text-center" style="padding: 50px 40px;">
-                    <div style="font-size: 3rem; color: var(--color-cyan); margin-bottom: 24px;">
-                        <i class="fas fa-paper-plane"></i>
-                    </div>
-                    <h3 style="margin-bottom: 16px;"><span data-lang="id">Mari Diskusikan Bersama</span><span
-                            data-lang="en">Let's Discuss Together</span></h3>
-                    <p style="color: #cbd5e1; margin-bottom: 32px; font-size: 0.95rem; line-height: 1.6;">
-                        <span data-lang="id">Ceritakan kebutuhan bisnis Anda melalui email. Tim profesional kami akan
-                            membalas dengan solusi terbaik dalam waktu 1x24 jam.</span>
-                        <span data-lang="en">Tell us about your business needs via email. Our professional team will get
-                            back to you with the best solutions within 24 hours.</span>
-                    </p>
-
-                    <a href="mailto:info@beyondtalentservice.id" class="btn btn-primary w-100"
-                        style="padding: 16px; font-size: 1.1rem; border-radius: 12px;">
-                        <i class="fas fa-envelope"></i> info@beyondtalentservice.id
-                    </a>
-
-                    <p style="margin-top: 24px; color: rgba(255,255,255,0.6); font-size: 0.9rem;">
-                        <span data-lang="id">Atau butuh respons cepat? <br><a href="https://wa.me/6281289973003"
-                                target="_blank"
-                                style="color: var(--color-cyan); text-decoration: none; font-weight: 600; margin-top: 8px; display: inline-block;"><i
-                                    class="fab fa-whatsapp"></i> Chat via WhatsApp</a></span>
-                        <span data-lang="en">Need a quick response? <br><a href="https://wa.me/6281289973003"
-                                target="_blank"
-                                style="color: var(--color-cyan); text-decoration: none; font-weight: 600; margin-top: 8px; display: inline-block;"><i
-                                    class="fab fa-whatsapp"></i> Chat on WhatsApp</a></span>
-                    </p>
-                </div>
+          <div class="why-grid reveal">
+            <div class="why-card">
+              <div class="why-num">01</div>
+              <h3 data-i18n="w1_t">Ekosistem Terintegrasi</h3>
+              <p data-i18n="w1_d">Satu pintu untuk semua kebutuhan, dari legalitas hingga operasional teknologi.</p>
             </div>
+            <div class="why-card">
+              <div class="why-num">02</div>
+              <h3 data-i18n="w2_t">Adaptif &amp; Fleksibel</h3>
+              <p data-i18n="w2_d">Solusi yang dirancang khusus menyesuaikan skala dan keunikan bisnis Anda.</p>
+            </div>
+            <div class="why-card">
+              <div class="why-num">03</div>
+              <h3 data-i18n="w3_t">Tenaga Ahli Profesional</h3>
+              <p data-i18n="w3_d">Didukung oleh tim berpengalaman dengan rekam jejak industri yang terbukti.</p>
+            </div>
+            <div class="why-card">
+              <div class="why-num">04</div>
+              <h3 data-i18n="w4_t">Fokus pada Efisiensi</h3>
+              <p data-i18n="w4_d">Optimalisasi biaya dan waktu operasional untuk pertumbuhan bisnis maksimal.</p>
+            </div>
+          </div>
         </div>
-        <div class="footer-bottom">
-            <p>&copy; 2024 PT BEYOND TALENT SERVICE. All rights reserved.</p>
-        </div>
-    </footer>
+      </div>
+    </section>
 
-    <!-- JS -->
-    <script src="script.js"></script>
+    <!-- ========================================== -->
+    <!--        05 / LEGALITAS & SERTIFIKASI        -->
+    <!-- ========================================== -->
+    <section class="band legal-band" id="legalitas">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <div>
+            <span class="eyebrow" data-i18n="idx_legal">05 / Legalitas &amp; Sertifikasi</span>
+            <h2 data-i18n-html="legal_h2">Legalitas &amp; <em>Sertifikasi</em></h2>
+          </div>
+          <p class="lead" data-i18n="legal_d">PT Beyond Talent Service telah terdaftar resmi dan mematuhi seluruh
+            regulasi yang berlaku di Indonesia sebagai bentuk profesionalisme dan komitmen kami kepada mitra.</p>
+        </div>
+
+        <div class="legal-grid reveal">
+          <div class="doc-card">
+            <div class="doc-top">
+              <span class="doc-no">DOC / 01</span>
+              <span class="doc-stamp" data-i18n="doc_status">Terdaftar</span>
+            </div>
+            <h3>Akta Pendirian</h3>
+            <p data-i18n="d1">Notaris Resmi Terdaftar</p>
+          </div>
+          <div class="doc-card">
+            <div class="doc-top">
+              <span class="doc-no">DOC / 02</span>
+              <span class="doc-stamp" data-i18n="doc_status">Terdaftar</span>
+            </div>
+            <h3>SK Kemenkumham</h3>
+            <p data-i18n="d2">Pengesahan Badan Hukum</p>
+          </div>
+          <div class="doc-card">
+            <div class="doc-top">
+              <span class="doc-no">DOC / 03</span>
+              <span class="doc-stamp" data-i18n="doc_status">Terdaftar</span>
+            </div>
+            <h3>NIB</h3>
+            <p data-i18n="d3">Nomor Induk Berusaha</p>
+          </div>
+          <div class="doc-card">
+            <div class="doc-top">
+              <span class="doc-no">DOC / 04</span>
+              <span class="doc-stamp" data-i18n="doc_status">Terdaftar</span>
+            </div>
+            <h3>NPWP</h3>
+            <p data-i18n="d4">Nomor Pokok Wajib Pajak</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================== -->
+  <!--        06 / KORESPONDENSI & FOOTER         -->
+  <!-- ========================================== -->
+  <footer class="correspondence" id="kontak">
+    <div class="contact-band">
+      <div class="wrap">
+        <div class="contact-grid">
+          <div class="contact-left reveal">
+            <span class="eyebrow" data-i18n="idx_contact">06 / Korespondensi</span>
+            <h2 data-i18n-html="contact_h2">Mari Diskusikan <em>Bersama</em></h2>
+            <p class="lead" data-i18n="contact_lead">Ceritakan kebutuhan bisnis Anda melalui email. Tim profesional kami
+              akan membalas dengan solusi terbaik dalam waktu 1x24 jam.</p>
+
+            <div class="contact-buttons">
+              <a href="mailto:info@beyondtalentservice.id" class="btn btn-gold">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="square" aria-hidden="true">
+                  <rect x="3" y="5" width="18" height="14"></rect>
+                  <path d="M3 7l9 6 9-6"></path>
+                </svg>
+                info@beyondtalentservice.id
+              </a>
+              <a href="https://wa.me/6281289973003" target="_blank" rel="noopener noreferrer"
+                class="btn btn-ghost-dark">
+                <span data-i18n="wa_btn">Chat via WhatsApp</span>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="square" aria-hidden="true">
+                  <path d="M7 17L17 7M8 7h9v9"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="ledger-card reveal">
+            <div class="ledger-row">
+              <div class="ledger-k" data-i18n="lbl_email">Email</div>
+              <div class="ledger-v"><a href="mailto:info@beyondtalentservice.id">info@beyondtalentservice.id</a></div>
+            </div>
+            <div class="ledger-row">
+              <div class="ledger-k">WhatsApp</div>
+              <div class="ledger-v"><a href="https://wa.me/6281289973003" target="_blank"
+                  rel="noopener noreferrer">+62 812-8997-3003</a></div>
+            </div>
+            <div class="ledger-row">
+              <div class="ledger-k" data-i18n="lbl_addr">Alamat</div>
+              <div class="ledger-v">Grand Pasar Minggu, Jalan Raya Rawa Bambu Nomor 88 L, Jakarta Selatan, 12520.</div>
+            </div>
+            <div class="ledger-row">
+              <div class="ledger-k" data-i18n="lbl_web">Website</div>
+              <div class="ledger-v"><a href="https://www.beyondtalentservice.id" target="_blank"
+                  rel="noopener noreferrer">beyondtalentservice.id</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrap">
+      <div class="footer-mid">
+        <div>
+          <div class="footer-plate">
+            <img src="Logo-BTS-Company.webp" alt="PT Beyond Talent Service" width="148" height="138" loading="lazy">
+          </div>
+          <p class="footer-desc" data-i18n="footer_about">Menjadi penggerak utama dalam membangun ekosistem bisnis yang
+            terintegrasi dan inovatif berskala nasional.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4 data-i18n="nav_pillars">Pilar Bisnis</h4>
+          <ul>
+            <li><a href="#pilar-1" data-i18n="p1">Creative, Event &amp; Media</a></li>
+            <li><a href="#pilar-2" data-i18n="p2">Technology &amp; Digital Solutions</a></li>
+            <li><a href="#pilar-3" data-i18n="p3">Professional Consulting &amp; Talent</a></li>
+            <li><a href="#pilar-4" data-i18n="p4">Production, Procurement &amp; Hospitality</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 data-i18n="footer_nav">Navigasi</h4>
+          <ul>
+            <li><a href="#tentang" data-i18n="nav_about">Tentang Kami</a></li>
+            <li><a href="#solusi" data-i18n="nav_solutions">Solusi Digital</a></li>
+            <li><a href="#keunggulan" data-i18n="nav_why">Keunggulan</a></li>
+            <li><a href="#legalitas" data-i18n="nav_legal">Legalitas</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-legal">
+      <div class="wrap">
+        <span>&copy; 2026 PT BEYOND TALENT SERVICE. All rights reserved.</span>
+        <span>INTEGRATED BUSINESS PARTNER · JAKARTA SELATAN</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Discreet Floating WhatsApp Pill -->
+  <a class="wa-pill" href="https://wa.me/6281289973003" target="_blank" rel="noopener noreferrer"
+    aria-label="Chat via WhatsApp">
+    <span class="wa-dot" aria-hidden="true"></span>
+    <span class="wa-label">WhatsApp</span>
+  </a>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
