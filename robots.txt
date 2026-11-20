@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://beyondtalentservice.id/sitemap.xml
+Sitemap: https://www.beyondtalentservice.id/sitemap.xml

@@ -7,9 +7,16 @@
 
   var STORAGE_KEY = "bts_lang";
 
+  var LOCALES = {
+    id: "id_ID",
+    en: "en_US",
+    zh: "zh_CN"
+  };
+
   var COPY = {
     id: {
-      page_title: "PT Beyond Talent Service — Integrated Business Partner",
+      page_title: "PT Beyond Talent Service — Integrated Business Partner Indonesia",
+      page_desc: "PT Beyond Talent Service (Jakarta Selatan): mitra bisnis B2B terintegrasi untuk MICE & event, solusi IT (IoT, POS, ERP), konsultan manajemen & SDM, serta pengadaan.",
       tagline: "Integrated Business Partner",
       nav_about: "Tentang Kami",
       nav_pillars: "Pilar Bisnis",
@@ -112,7 +119,8 @@
     },
 
     en: {
-      page_title: "PT Beyond Talent Service — Integrated Business Partner",
+      page_title: "PT Beyond Talent Service — Integrated Business Partner Indonesia",
+      page_desc: "PT Beyond Talent Service (South Jakarta): end-to-end B2B integrated business partner for MICE & events, digital IT solutions (IoT, POS, ERP), consulting & HR, and procurement.",
       tagline: "Integrated Business Partner",
       nav_about: "About Us",
       nav_pillars: "Business Pillars",
@@ -215,7 +223,8 @@
     },
 
     zh: {
-      page_title: "PT Beyond Talent Service — 综合业务合作伙伴",
+      page_title: "PT Beyond Talent Service — 印度尼西亚综合业务合作伙伴",
+      page_desc: "PT Beyond Talent Service（雅加达南部）：一站式B2B综合业务合作伙伴，提供会展活动、数字化与IT系统（IoT、POS、ERP）、管理咨询与人才派遣及企业采购服务。",
       tagline: "综合业务合作伙伴",
       nav_about: "关于我们",
       nav_pillars: "业务支柱",
@@ -324,7 +333,25 @@
     var dict = COPY[lang];
 
     document.documentElement.lang = lang;
-    if (dict.page_title) document.title = dict.page_title;
+    if (dict.page_title) {
+      document.title = dict.page_title;
+      var metaTitle = document.querySelector('meta[name="title"]');
+      var ogTitle = document.querySelector('meta[property="og:title"]');
+      var twTitle = document.querySelector('meta[name="twitter:title"]');
+      if (metaTitle) metaTitle.setAttribute("content", dict.page_title);
+      if (ogTitle) ogTitle.setAttribute("content", dict.page_title);
+      if (twTitle) twTitle.setAttribute("content", dict.page_title);
+    }
+    if (dict.page_desc) {
+      var metaDesc = document.querySelector('meta[name="description"]');
+      var ogDesc = document.querySelector('meta[property="og:description"]');
+      var twDesc = document.querySelector('meta[name="twitter:description"]');
+      if (metaDesc) metaDesc.setAttribute("content", dict.page_desc);
+      if (ogDesc) ogDesc.setAttribute("content", dict.page_desc);
+      if (twDesc) twDesc.setAttribute("content", dict.page_desc);
+    }
+    var ogLocale = document.querySelector('meta[property="og:locale"]');
+    if (ogLocale && LOCALES[lang]) ogLocale.setAttribute("content", LOCALES[lang]);
 
     document.querySelectorAll("[data-i18n]").forEach(function (el) {
       var key = el.getAttribute("data-i18n");
